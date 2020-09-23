@@ -23,6 +23,6 @@ def sock_merchant(n, ar):
             ar = remove_values_from_list(ar, i)
     return sum(result)
 
-
+  
 final = sock_merchant(n, ar)
 print(final)
